@@ -19,7 +19,14 @@ const Ticket = () => {
     <div>
       {[...richestPeople].map((item, index) => {
         return (
-          <li style={{ listStyle: 'none' }}>
+          <li
+            style={{
+              listStyle: 'none',
+              backgroundColor: '#fff',
+              display: 'flex',
+              flex: 1,
+            }}
+          >
             <Layout draggable="true">{item}</Layout>
           </li>
         );
