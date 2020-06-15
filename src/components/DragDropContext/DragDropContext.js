@@ -4,6 +4,7 @@ import Ticket from '../Ticket/Ticket';
 import uuid from 'react-uuid';
 
 const DragDropContext = () => {
+
   const columnsFromBackend = {
     [uuid()]: {
       name: 'Rewards',
