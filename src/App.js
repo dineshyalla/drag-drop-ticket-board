@@ -1,6 +1,6 @@
 import React from 'react';
-import Ticket from './components/Ticket';
-import DragDropContext from './components/DragDropContext';
+import Ticket from './components/Ticket/Ticket';
+import DragDropContext from './components/DragDropContext/DragDropContext';
 
 function App() {
   return (
