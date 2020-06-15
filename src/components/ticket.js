@@ -1,9 +1,14 @@
 import React from 'react';
+import { Layout } from './styled';
 
-const ticket = () => {
+const Ticket = () => {
     return(
-        <div>this is ticket</div>
+        <li>
+        <Layout draggable="true">
+        this is ticket
+        </Layout>
+        </li>
     )
 }
 
-export default ticket;
+export default Ticket;
