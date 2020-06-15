@@ -39,7 +39,15 @@ const DragDropContext = () => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%',
+        minWidth: '500px',
+      }}
+    >
       {Object.entries(columnsFromBackend).map((column) => {
         return (
           <div
@@ -47,6 +55,11 @@ const DragDropContext = () => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
+              minHeight: '400px',
+              minWidth: '150px',
+              border: '2px solid #e3e5e4',
+              padding: '5px',
+              margin: '5px',
             }}
           >
             <ul className="draggable-list" id="draggable-list">
