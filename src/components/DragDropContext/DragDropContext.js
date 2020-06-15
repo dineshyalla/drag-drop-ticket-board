@@ -2,7 +2,11 @@ import React from 'react';
 import { Layout } from './styled';
 
 const DragDropContext = () => {
-  return <h3>This is DragDropContext</h3>;
+  return(
+  <Layout> 
+    <h3>This is DragDropContext</h3>
+  </Layout>
+  )
 };
 
 export default DragDropContext;
